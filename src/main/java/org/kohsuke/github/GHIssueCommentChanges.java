@@ -1,3 +1,5 @@
+// CS427 Issue link: https://github.com/hub4j/github-api/issues/1243
+
 package org.kohsuke.github;
 
 import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
@@ -8,7 +10,7 @@ import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
  * @see GHEventPayload.Issue
  */
 @SuppressFBWarnings("UWF_UNWRITTEN_FIELD")
-
+// CS427 Issue link: https://github.com/hub4j/github-api/issues/1243
 public class GHIssueCommentChanges {
 
     private GHFrom body;

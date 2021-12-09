@@ -637,6 +637,7 @@ public abstract class GHEventPayload extends GitHubInteractiveObject {
          * @return comment changes
          */
         @SuppressFBWarnings(value = { "EI_EXPOSE_REP" }, justification = "Expected")
+        // CS427 Issue link: https://github.com/hub4j/github-api/issues/1243
         public GHIssueCommentChanges getCommentChanges() {
             return changes;
         }
